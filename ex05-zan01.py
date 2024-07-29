@@ -22,3 +22,22 @@ print(f'a={a}, b={b}, c={c}')
 
 print(f'a={a}, b={b}, c={c}')
 # %%
+
+tp = 10, 20, 30
+
+print(f'tp={tp} type of tp {type(tp)}')
+# %%
+
+tp = 19,
+print(f'tp={tp} type of tp {type(tp)}')
+
+# %%
+
+print( 10 in tp)
+# %%
+print( 10 not in tp)
+# %%
+print( type(tp) is tuple )
+# %%
+ 
+# print( type(tp) == tuple )
