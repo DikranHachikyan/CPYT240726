@@ -1,6 +1,8 @@
 # port - global var
+UID = 10
 port = 1521
 # 1. definition
+# UID = 11
 def show():
     global port
     port = 3306
