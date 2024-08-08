@@ -22,7 +22,7 @@ def measure_time(func):
     @wraps(func)
     def wrapper(*args, **kwarg):
         t = time()
-        func(*args, **kwarg)
+        return func(*args, **kwarg)
         print(f'1 name:{func.__name__} doc str:{func.__doc__} exec time:{time() -t:.3f}s')
     
     return wrapper
